@@ -121,15 +121,24 @@ The application provides a wide range of RESTful API endpoints for social media 
 
 User Management
 Register User: POST /api/users/register
+
 Login User: POST /api/users/login
+
 Get User Profile: GET /api/users/{userId}
+
 Update User Profile: PUT /api/users/{userId}
+
 Delete User Account: DELETE /api/users/{userId}
+
 Post Management
 Create Post: POST /api/posts
+
 Get All Posts: GET /api/posts
+
 Get Post by ID: GET /api/posts/{postId}
+
 Update Post: PUT /api/posts/{postId}
+
 Delete Post: DELETE /api/posts/{postId}
 Comment Management
 Add Comment: POST /api/comments
