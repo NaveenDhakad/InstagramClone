@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark px-3">
+    <span class="navbar-brand">Instagram Clone</span>
+    <button class="btn btn-danger" onclick="logout()">Logout</button>
+</nav>
+
+<div class="container mt-4">
+
+    <!-- Create Post -->
+    <div class="card mb-3">
+        <div class="card-body">
+            <input id="imageUrl" class="form-control" placeholder="Image URL">
+            <textarea id="caption" class="form-control mt-2" placeholder="Caption"></textarea>
+            <button class="btn btn-primary mt-2" onclick="createPost()">Post</button>
+        </div>
+    </div>
+
+    <!-- Feed -->
+    <div id="feed"></div>
+
+</div>
+
+<script src="js/feed.js"></script>
+<script src="js/post.js"></script>
+</body>
+</html>
